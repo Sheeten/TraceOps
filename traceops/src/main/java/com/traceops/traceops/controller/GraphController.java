@@ -8,7 +8,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/graph")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://traceops-xis6.onrender.com/api/projects"
+})
 public class GraphController {
 
     private final GraphService graphService;
