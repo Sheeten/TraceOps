@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/api/projects")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://traceops-xis6.onrender.com/api/projects"
+        "https://traceops-frontend.onrender.com"
 })
 public class ProjectController {
 
